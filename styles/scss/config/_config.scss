@@ -1,0 +1,353 @@
+
+
+//字型 相關
+.NotoSansTC{
+  font-family: Noto Sans TC;
+}
+.NotoSerifTC{
+  font-family: Noto Serif TC;
+}
+.CormorantInfant{
+  font-family: Cormorant Infant;  
+}
+.Roboto{
+ font-family:  Roboto;
+}
+
+//width 相關
+.max415{
+  max-width: 415px;
+}
+.max440{
+  max-width: 440px;
+}
+.max480{
+  max-width: 480px;
+  margin: auto;
+}
+.max495{
+  max-width: 495px;
+  margin: auto;
+}
+.max540{
+  max-width: 540px; 
+  margin: auto;
+}
+.max580{
+  max-width: 580px;
+  margin: auto;
+}
+.max590{
+  max-width: 590px;
+}
+.max640{
+  max-width: 640px;
+  margin: auto;
+}
+.max720{
+  max-width: 720px;
+}
+.max960{
+  max-width: 960px;
+  margin: auto; 
+}
+.max1200{
+  max-width: 1200px;
+  margin: auto; 
+}
+.max1680{
+  max-width: 1680px;
+  margin: auto; 
+}
+.w-auto{
+  width: auto !important;
+}
+
+//lh 相關
+.lh09{
+  line-height: 0.9;
+}
+.lh1{
+  line-height: 1;
+}
+.lh13{
+  line-height: 1.3;
+}
+.lh14{
+  line-height: 1.4;
+}
+.lh16{
+  line-height: 1.6;
+}
+.lh165{
+  line-height: 1.65;
+}
+
+//z-index 相關
+
+.z-1{
+  z-index: 1;
+}
+.z-2{
+  z-index: 2;
+}
+.z-3{
+  z-index: 3;
+}
+.z-4{
+  z-index: 4;
+}
+
+//overflow 相關
+.overflow-hidden{
+  overflow: hidden;
+}
+.overflow-auto{
+  overflow: auto;
+}
+
+
+
+//bg
+.bg-black{
+  background: #000;
+}
+.bg-white03{
+  background: rgba(255,255,255,0.3);
+}
+.bg-brown{
+  background: $brown;
+}
+.bg-darkBrown{
+  background: $darkBrown;
+}
+.bg-grayF8F8F8{
+  background: $grayF8F8F8;
+}
+.bg-hover-darkBrown{
+  transition: all .3s;
+  &:hover{
+    background:$darkBrown;
+  }
+}
+
+//font-weight 相關
+.font-weight-500{
+  font-weight: 500;
+}
+.font-weight-600{
+  font-weight: 600;
+}
+
+//color 相關
+.text-black{
+  color:black;
+}
+.text-6D6D6D{
+  color:$gray6D6D6D; 
+}
+.text-brown776356{
+  color:$brown776356;
+}
+.text-hover-white{
+  transition: all .3s;
+  &:hover{
+    color:white;
+  }
+}
+.text-hover-brown776356{
+  transition: all .3s;
+  &:hover{
+    color:$brown776356 !important;
+  }
+}
+
+//border 相關
+.border-top-black-2{
+  border-top:2px solid black;
+}
+.border-white{
+    border:1px solid white;
+}
+.border-white-3{
+    border:3px solid white;
+}
+.border-bottom-brown776356{
+    border-bottom:1px solid $brown776356;
+}
+.border-bottom-white{
+  border-bottom:1px solid white;
+}
+.border-bottom-black{
+  border-bottom:1px solid black;
+}
+.border-bottom-BCBCBC{
+  border-bottom:1px solid #BCBCBC;
+}
+
+
+//position 相關
+.absolute-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.position-lg-absolute{
+  @media (min-width:991px){
+    position: absolute !important;
+  }
+}
+.position-xl-absolute{
+  @media (min-width:1199px){
+    position: absolute !important;
+  }
+}
+// flex 相關
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-grow{ 
+  flex-grow: 1;
+}
+.flex-shrink-0{
+  flex-shrink: 0;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-align-center{
+  display: flex;
+  align-items: center;
+}
+.flex-justify-space-between{
+  display: flex;
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+
+
+//其他
+.blank{
+  flex:0 0 12.5%;
+  @media(max-width:1199px){
+    display: none;
+  }
+}
+.text-align-left{
+  text-align: left;
+}
+
+.cursor{
+  cursor: pointer;
+}
+.point-event-none{
+  pointer-events: none;
+}
+.point-event-all{
+  pointer-events: all;
+}
+.mycol-1{
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+}
+.mycol-2{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.mycol-3{
+    flex: 0 0 37.5%;
+    max-width: 37.5%;
+}
+.mycol-4{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.mycol-5{
+    flex: 0 0 62.5%;
+    max-width: 62.5%;
+}
+.mycol-6{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.mycol-7{
+    flex: 0 0 87.5%;
+    max-width: 87.5%;
+}
+.mycol-lg-1{
+    @media(min-width:992px){
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+}
+.mycol-lg-3{
+    @media(min-width:992px){
+    flex: 0 0 37.5%;
+    max-width: 37.5%;
+    }
+}
+.mycol-lg-5{
+    @media(min-width:992px){
+      flex: 0 0 62.5%;
+      max-width: 62.5%;
+    }
+}
+.mycol-xl-1{
+    @media(min-width:1200px){
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+}
+.mycol-xl-2{
+    @media(min-width:1200px){
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+}
+.mycol-xl-3{
+    @media(min-width:1200px){
+      flex: 0 0 37.5%;
+      max-width: 37.5%;
+    }
+}
+.mycol-xl-4{
+    @media(min-width:1200px){
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+}
+.mycol-xl-5{
+    @media(min-width:1200px){
+      flex: 0 0 62.5%;
+      max-width: 62.5%;
+    }
+}
+.mycol-xl-6{
+    @media(min-width:1200px){
+      flex: 0 0 75%;
+      max-width:75%;
+    }
+}
+.mycol-xl-7{
+    @media(min-width:1200px){
+      flex: 0 0 87.5%;
+      max-width: 87.5%;
+    }
+}
+.les1{
+  letter-spacing: 1px;
+}
+.les2{
+  letter-spacing: 2px;
+}
+.opacity0{
+  opacity: 0;
+}

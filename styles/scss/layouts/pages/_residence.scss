@@ -1,0 +1,131 @@
+ .editor{
+    .residence-section-1{
+        &:before{
+            z-index: 0;
+        }   
+        .curtain-wrapper{
+            height: 510px;
+            #curtain{ 
+                position: absolute;
+                top: 0;
+                left: 0;
+               
+                height: 100%;  
+                .imgFill{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-position-x: left !important;
+                }
+                #drag-button{
+                    z-index: 0;
+                    pointer-events: all;
+                    position: absolute;
+                    right: 0;
+                    top: 72%;
+                    transform: translate(50%, -50%);
+                    background:  url(images/residence/drag.png) center no-repeat;
+                    width: 81px;
+                    height: 81px;
+                    cursor: pointer;
+                }  
+
+             
+            }
+            #curtain-2{
+                height: 100%;
+                .jqimgFill{
+                    position: absolute; 
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;   
+                }
+            }
+        }
+
+    }
+    .residence-section-2{
+        height: 1000px;
+        img{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+    }
+    .residence-section-3{
+        &::before{
+            z-index: 0;
+        }
+        .swiper-pagination{
+            margin-right: -16px;
+            .swiper-pagination-bullet{
+                width: 7px;
+                height: 7px;
+                background: transparent;
+                border:1px solid black;
+                opacity: 1;
+                margin: 0 16px;
+                &.swiper-pagination-bullet-active{
+                    background: black;
+                }
+            }
+        }
+    }
+    @media(max-width:1600px){
+        .residence-section-1 .curtain-wrapper{
+            height: 450px;
+        }
+        .residence-section-2{
+            height: 800px;
+        }
+    }
+    @media(max-width:1400px){
+        .residence-section-1 .curtain-wrapper{
+            height: 400px;
+        }
+    }
+    @media(max-width:1199px){
+        .residence-section-2{
+            height: 700px;
+        }
+    }
+    @media(max-width:991px){
+        .residence-section-1 .curtain-wrapper{
+            height: 300px;
+        }
+        .residence-section-2{
+            height: 500px;
+        }
+    }
+    @media(max-width:767px){
+        .residence-section-1 .curtain-wrapper{
+            #curtain #drag-button{
+                width: 50px;
+                height: 50px;
+                background-size: cover;
+            }
+        }
+        .residence-section-2{
+            height: 470px;
+        }
+        .residence-section-3 .swiper-pagination{
+            margin-right: -10px;
+            .swiper-pagination-bullet{
+                    margin: 0 10px;
+            }
+            
+        }
+    }
+    @media(max-width:350px){
+        .residence-section-2 {
+            .font-88{
+                font-size: 40px;
+            }
+        }
+    }
+ }

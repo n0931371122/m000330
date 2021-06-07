@@ -1,0 +1,193 @@
+.font-165{
+  font-size: 165px;
+}
+.font-150{
+  @include fz(150px);
+}
+.font-88{
+  @include fz(88px);
+}
+.font-80{
+  @include fz(80px);
+}
+.font-65{
+  @include fz(65px);
+}
+.font-60{
+  @include fz(60px);
+}
+.font-55{
+  @include fz(55px);
+}
+.font-44 {
+  @include fz(44px);
+}
+.font-40 {
+  @include fz(40px);
+}
+.font-36 {
+  @include fz(36px);
+}
+.font-35 {
+  @include fz(35px);
+}
+.font-32 {
+  @include fz(32px);
+}
+.font-30 {
+  @include fz(30px);
+}
+.font-28 {
+  @include fz(28px);
+}
+.font-26 {
+  @include fz(26px);
+}
+.font-25 {
+  @include fz(25px);
+}
+.font-24{
+  @include fz(24px);
+}
+.font-22 {
+  @include fz(22px);
+}
+.font-21{
+  @include fz(21px);
+}
+.font-20{
+  @include fz(20px);
+}
+.font-19 {
+  @include fz(19px);
+}
+.font-18{
+  @include fz(18px);
+}
+.font-17 {
+  @include fz(17px);
+}
+.font-16{
+  @include fz(16px);
+}
+.font-15{
+  @include fz(15px);
+}
+.font-14{
+  @include fz(14px);
+}
+.font-12 {
+  @include fz(12px);
+}
+@media (max-width: 1460px){
+  .font-165{
+    @include fz(130px);
+  }
+}
+@media (max-width: 1400px){
+  .font-165{
+    @include fz(100px);
+  }
+  .font-80{
+    @include fz(80px);
+  }
+}
+
+
+@media (max-width: 1199px){
+  .font-88{
+    @include fz(70px);
+  }
+  .font-65{
+    @include fz(46px);
+  }
+  .font-60 {
+    @include fz(50px);
+  }
+  .font-44{
+    @include fz(40px);
+  }
+  .font-40{
+    @include fz(35px);
+  }
+  .font-32 {
+    @include fz(28px);
+  }
+  .font-30 {
+    @include fz(28px);
+  }
+  .font-28 {
+    @include fz(22px);
+  }
+  .font-26 {
+    @include fz(22px);
+  }
+  .font-25 {
+    @include fz(22px);
+  }
+  .font-24{
+    @include fz(22px);
+  }
+  .font-20{
+    @include fz(18px);
+  }
+}
+@media (max-width: 991px){
+  .font-88{
+    @include fz(60px);
+  }
+  .font-165{
+    @include fz(80px);
+  }
+}
+@media (max-width: 767px){
+  .font-165{
+    @include fz(60px);
+  }
+  .font-88{
+    @include fz(50px);
+  }
+  .font-80 {
+    @include fz(35px);
+  }
+  .font-60 {
+    @include fz(35px);
+  }
+  .font-55{
+    @include fz(34px);
+  }
+  .font-44 {
+    @include fz(28px);
+  }
+  .font-40 {
+    @include fz(32px);
+  }
+  .font-36 {
+    @include fz(22px);
+  }
+  .font-30 {
+    @include fz(24px);
+  }
+  .font-26 {
+    @include fz(22px);
+  }
+  .font-25 {
+    @include fz(18px);
+  }
+  .font-24 {
+    @include fz(18px);
+  }
+}
+@media (max-width: 575px){
+  .font-165{
+    font-size: 44px;
+  }
+  .font-18{
+    @include fz(16px);
+  }
+}
+@media (max-width: 374px){
+  .font-165{
+    font-size: 35px;
+  }
+}

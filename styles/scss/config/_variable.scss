@@ -1,0 +1,10 @@
+$gray6D6D6D:#6D6D6D;
+$grayF8F8F8:#F8F8F8;
+$grayF2F2F2:#F2F2F2;
+$brown:#7A5E53;
+$brown786356:#786356;
+$darkBrown:#331902;
+$brown776356:#776356;
+@mixin fz($size) {
+  font-size: $size;
+}
