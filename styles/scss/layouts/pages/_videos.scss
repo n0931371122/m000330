@@ -1,0 +1,36 @@
+#videos{
+    [data-toggle="modal"]{
+        &:hover{
+            .circle{
+                background: $red;
+            }
+            .font-20{
+                color:$red;
+            }
+        }
+        .circle{
+            background:rgba(255,255,255,0.3);
+            width: 70px;
+            height: 70px;
+            transition: background .3s;
+        }
+        .font-20{
+            height: 71px;
+        }
+    }
+    @media(max-width:1199px){
+        [data-toggle="modal"]{
+            .font-20{
+                height: 65px;
+            }
+        }
+    }
+    @media(max-width:767px){
+        [data-toggle="modal"]{
+            .font-20{
+                height: auto;
+                display: block;
+            }
+        }
+    }
+} 

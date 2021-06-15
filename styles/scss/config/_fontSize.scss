@@ -4,6 +4,15 @@
 .font-150{
   @include fz(150px);
 }
+.font-130{
+  @include fz(130px);
+}
+.font-120{
+  @include fz(120px);
+}
+.font-90{
+  @include fz(90px);
+}
 .font-88{
   @include fz(88px);
 }
@@ -13,6 +22,9 @@
 .font-65{
   @include fz(65px);
 }
+.font-64{
+  @include fz(64px);
+}
 .font-60{
   @include fz(60px);
 }
@@ -21,6 +33,9 @@
 }
 .font-44 {
   @include fz(44px);
+}
+.font-42 {
+  @include fz(42px);
 }
 .font-40 {
   @include fz(40px);
@@ -95,6 +110,12 @@
 
 
 @media (max-width: 1199px){
+  .font-120{
+    @include fz(100px);
+  }
+  .font-90{
+    @include fz(80px);
+  }
   .font-88{
     @include fz(70px);
   }
@@ -133,6 +154,12 @@
   }
 }
 @media (max-width: 991px){
+  .font-120{
+    @include fz(80px);
+  }
+  .font-90{
+    @include fz(70px);
+  }
   .font-88{
     @include fz(60px);
   }
@@ -143,6 +170,12 @@
 @media (max-width: 767px){
   .font-165{
     @include fz(60px);
+  }
+  .font-120{
+    @include fz(60px);
+  }
+  .font-90{
+    @include fz(50px);
   }
   .font-88{
     @include fz(50px);
@@ -182,8 +215,17 @@
   .font-165{
     font-size: 44px;
   }
+  .font-120{
+    @include fz(40px);
+  }
+  .font-90{
+    @include fz(35px);
+  }
   .font-18{
     @include fz(16px);
+  }
+  .font-15{
+    @include fz(14px);
   }
 }
 @media (max-width: 374px){

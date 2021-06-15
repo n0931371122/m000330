@@ -84,19 +84,18 @@ address {
 
 body{
 	margin: 0;
-	font-family: "Amiri", "Noto Sans TC";
-	font-size: 18px;
+	font-family:"Open Sans", "Noto Sans TC";
+	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 	color:black;
 	overflow-x: hidden;
 	line-height: normal;
-	transition: opacity .3s;   
 }
+
 .wp{
-	overflow-x: hidden;
+	position: relative;
+	overflow: hidden;
 }
-
-
 
 .safari body {
   -webkit-text-size-adjust: none;

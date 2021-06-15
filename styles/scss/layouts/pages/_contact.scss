@@ -1,0 +1,47 @@
+#contact{
+    form{
+        .form-field{
+            label{
+                flex: 0 0 105px;
+            }
+        }
+        .upload-icon{
+            background: #E5E5E5;
+            width: 46px;
+            height: 46px;
+            img{
+                width: 16px;
+            }
+        }
+    }
+    @media(max-width:767px){
+        .rounded-30{
+            border-radius: 10px;
+        }
+        textarea{
+            height: 108px;
+        }
+    }
+}
+.contact-info{
+    .circle{
+        width: 42px;
+        height: 42px;
+    }
+    @media(max-width:991px){
+       .dec-img{
+           position: absolute;
+           top: 165px;
+           right: -30px;
+           max-width: 350px;
+       }
+    }
+    @media(max-width:767px){
+       .dec-img{
+           position: absolute;
+           top: 45px;
+           right: -10px;
+           max-width: 150px;
+       }
+    }
+}

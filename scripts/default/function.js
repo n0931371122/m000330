@@ -41,3 +41,8 @@ function imgFill() {
     }
     });
 }
+
+
+function circleDot(){
+    return '<svg viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(1,0,0,1,-1470,-808)"><path class="path" d="M1522.31,819.688C1522.31,819.688 1516.12,811.041 1502,811C1492.88,810.974 1474,819.365 1474,840C1474,860.635 1489.86,869 1502,869C1514.14,869 1528.62,859.615 1530,845" style="fill:none;stroke:#ED1C24;stroke-width:4px;" /></g></svg>'
+}

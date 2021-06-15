@@ -1,10 +1,15 @@
-$gray6D6D6D:#6D6D6D;
-$grayF8F8F8:#F8F8F8;
-$grayF2F2F2:#F2F2F2;
-$brown:#7A5E53;
-$brown786356:#786356;
-$darkBrown:#331902;
-$brown776356:#776356;
+$red:#ED1C24;
+$redCD162A:#CD162A;
+$purple:#3B266B;
+$gray494949:#494949;
+$grayB2B2B2:#B2B2B2;
+$gray808080:#808080;
+$gray7F7F7F:#7F7F7F;
+$grayF7F7F7:#F7F7F7;
+$gray848484:#848484;
+$gray606060:#606060;
+$grayD1D1D1:#D1D1D1;
+$gray737373:#737373;
 @mixin fz($size) {
   font-size: $size;
 }
