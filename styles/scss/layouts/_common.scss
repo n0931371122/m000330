@@ -1,43 +1,105 @@
-.red-circle,
-.black-circle,
-.gray-circle{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    &::after{
-        content:"";
-        display: block;
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        border-radius: 50%;
+.element-style-1{
+    .red-circle,
+    .black-circle,
+    .gray-circle{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        transition: background .3s;
+        &::after{
+            content:"";
+            display: block;
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 50%;
+            transition: border .3s;
+        }
+        &::before{
+            content:"";
+            display: block;
+            width: 100%;
+            height:100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 50%;
+            opacity: 0;
+            transition: opacity .3s;
+        }
+        span,
+        .icon-block{
+            transition: color .3s;
+        }
+    }
+    .red-circle{
+        background: linear-gradient(to right,#EC1C24,#C2142C);
+        &::after{
+            border:1px solid $red;
+        }
+        &::before{
+            background: rgba(255,255,255,0.1);
+        }
+    }
+    .black-circle{
+        background: black;
+        &::after{
+            border:1px solid black;
+        }
+    }
+    .gray-circle{
+        background: $grayB2B2B2;
+        width: 40px;
+        height: 40px;
+        &::after{
+            width: 48px;
+            height: 48px;
+            border:1px solid  $grayB2B2B2; 
+        }
+        &::before{
+            background: linear-gradient(to right,#EC1C24,#C2142C);
+        }
+    }
+    span{
+        transition: color .3s; 
+    }
+    &:hover{
+        span{
+            color:$red; 
+        }
+        .red-circle,
+        .gray-circle{
+            &::after{
+                border:1px solid $red;
+            }
+        }
+        .red-circle,
+        .black-circle,
+        .gray-circle{
+            &::before{
+                opacity: 1;
+            }
+        }
+    }
+    @media(max-width:767px){
+        .red-circle,
+        .black-circle,
+        .gray-circle{
+            width: 36px;
+            height: 36px;
+            &::after{
+                width: 44px;
+                height: 44px;
+            }
+        }
     }
 }
-.red-circle{
-    background: linear-gradient(to right,#EC1C24,#C2142C);
-    &::after{
-        border:1px solid $red;
-    }
-}
-.black-circle{
-    background: black;
-    &::after{
-        border:1px solid black;
-    }
-}
-.gray-circle{
-    background: $grayB2B2B2;
-    width: 40px;
-    height: 40px;
-    &::after{
-        width: 48px;
-        height: 48px;
-        border:1px solid  $grayB2B2B2;
-    }
-}
+
+
 .swiper-pagination-bullet.circle{
     position: relative;
     svg{
@@ -69,6 +131,9 @@
 }
 .banner-fixed{
     height: 100vh;
+    @media(max-width:991px){
+        height: 800px;
+    }
     @media(max-width:767px){
         height: 400px;
     }
@@ -82,6 +147,9 @@
             transform: translateY(-50%);
         }
     } 
+    @media(max-width:991px){
+        height: 800px;
+    }
     @media(max-width:767px){
         height: 400px;
     }
@@ -190,22 +258,25 @@
 }
 .btn-dec{
     position: relative;
-    overflow: hidden;
     &::before{
+        display: none;
+    }
+    &::after{
         content:"";
         display: block;
-        width: 62px;
-        height: 62px;
-        border-radius: 50%;
-        background: radial-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0));
-        position: absolute; 
-        left: -62px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0255,255,255,0.2);
+        position: absolute;
         top: 0;
-        transition:left .5s;
+        left: 0;
+        border-radius: 30px;
+        opacity:0;
+        transition: opacity .3s;
     }
     &:hover{
-        &::before{ 
-           left: 100%;
+        &::after{
+            opacity: 1;
         }
     }
 }
@@ -235,4 +306,15 @@ ul.red-dots{
         }
     }
   }  
+}
+.circle-arrow{
+    width: 60px;
+    height: 60px;
+    @media(max-width:767px){
+        width: 40px;
+        height: 40px;
+    }
+}
+.prev-next{
+    box-shadow: 0 -10px 20px rgba(0,0,0,0.1);
 }

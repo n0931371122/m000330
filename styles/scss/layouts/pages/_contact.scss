@@ -13,6 +13,14 @@
                 width: 16px;
             }
         }
+        .dropdown-toggle::after{
+            border:0;
+            background: url(images/svg/dropdown.svg) center no-repeat;
+            width: 16px;
+            height: 8px;
+
+        }
+
     }
     @media(max-width:767px){
         .rounded-30{
@@ -39,9 +47,9 @@
     @media(max-width:767px){
        .dec-img{
            position: absolute;
-           top: 45px;
-           right: -10px;
-           max-width: 150px;
+           top: -20px;
+           right: -50px;
+           max-width: 220px;
        }
     }
 }

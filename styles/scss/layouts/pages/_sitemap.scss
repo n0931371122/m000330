@@ -3,8 +3,8 @@
         transform: translateX(-50%);
     
         &.dec-1{
-            top: -2.5%;
-            left: 53.8%;
+            top: -11%;
+            left: 65%;
             width: 39.2%;
         }
         &.dec-2{
@@ -51,7 +51,6 @@
                 &::after{
                      opacity: 1;
                 }
-               
             }
             span{
                 position: relative;
@@ -95,18 +94,18 @@
     @media(max-width:575px){
         .dec-img{
             &.dec-1{
-                top: 3%;
-                left: 27%;
+                top: 2%;
+                left: 71%;
                 width: 50%;
             }
             &.dec-2{
-                top: 6%;
-                left:58%;
+                top: 13%;
+                left:68%;
                 width: 50%;
             }
             &.dec-3{
-                top: 4%;
-                left: 91%;
+                top: 8%;
+                left: 96%;
                 width: 50%;
             }
         }   

@@ -2,6 +2,7 @@
     .content-wrapper{
         margin-top: -50px;
         a{
+            flex-direction: column;
             &:hover{
                 .img{
                     box-shadow: 0 10px 20px rgba(0,0,0,0.4);
@@ -44,12 +45,6 @@
                         }
                     }
                 }
-            }
-            .title{
-                height: 58px;
-            }
-            .content{
-                height: 48px;
             }
         }
     }
