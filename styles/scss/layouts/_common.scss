@@ -2,98 +2,58 @@
     .red-circle,
     .black-circle,
     .gray-circle{
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         position: relative;
-        transition: background .3s;
-        &::after{
+        &::after{ 
             content:"";
             display: block;
-            width: 60px;
-            height: 60px;
+            width: 83.3%;
+            height:83.3%;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
             border-radius: 50%;
-            transition: border .3s;
-        }
-        &::before{
-            content:"";
-            display: block;
-            width: 100%;
-            height:100%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            border-radius: 50%;
-            opacity: 0;
-            transition: opacity .3s;
-        }
-        span,
-        .icon-block{
-            transition: color .3s;
+            transition: all .3s;
         }
     }
     .red-circle{
-        background: linear-gradient(to right,#EC1C24,#C2142C);
+        border:1px solid $red;
         &::after{
-            border:1px solid $red;
-        }
-        &::before{
-            background: rgba(255,255,255,0.1);
+            background: linear-gradient(to right,#EC1C24,#C2142C);
         }
     }
     .black-circle{
-        background: black;
+        border:1px solid black;      
+        animation: upDown;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;  
         &::after{
-            border:1px solid black;
+            background: black;
         }
     }
     .gray-circle{
-        background: $grayB2B2B2;
-        width: 40px;
-        height: 40px;
+        width: 48px;
+        height: 48px;
+        border:1px solid $grayB2B2B2; 
         &::after{
-            width: 48px;
-            height: 48px;
-            border:1px solid  $grayB2B2B2; 
-        }
-        &::before{
-            background: linear-gradient(to right,#EC1C24,#C2142C);
+            background:$grayB2B2B2; 
         }
     }
     span{
         transition: color .3s; 
     }
     &:hover{
-        span{
+        .red-circle+span{
             color:$red; 
         }
         .red-circle,
         .gray-circle{
             &::after{
-                border:1px solid $red;
-            }
-        }
-        .red-circle,
-        .black-circle,
-        .gray-circle{
-            &::before{
-                opacity: 1;
-            }
-        }
-    }
-    @media(max-width:767px){
-        .red-circle,
-        .black-circle,
-        .gray-circle{
-            width: 36px;
-            height: 36px;
-            &::after{
-                width: 44px;
-                height: 44px;
+                width: 100%;
+                height: 100%;
             }
         }
     }

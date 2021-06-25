@@ -25,10 +25,14 @@
                 </div>
                 <div class="position-relative overflow-hidden z-1">
                     <div class="banner flex-center">
-                        <div class=" text-center pb-5 mb-2">
-                            <span class="d-block font-120 text-gradient-red font-weight-800 lh1 mb-2 pb-1" data-aos="fade-up">
-                                <span class="d-block">WELCOME</span>
-                                <span class="d-block">HWA.YUAN</span>
+                        <div class="text-center pb-5 mb-5 mb-sm-2">
+                            <span class="d-block font-120 font-weight-800 lh1 mb-2 pb-1" data-aos="fade-up">
+                                <span class="d-block text-gradient-red">
+                                    <span>WELCOME</span>
+                                </span>
+                                <span class="d-block text-gradient-red">
+                                    <span>HWA.YUAN</span>
+                                </span>
                             </span>
                             <span class="d-block font-36 text-redCD162A font-weight-bold" data-aos="fade-up" data-aos-delay="100">華元食品</span>
                         </div>
@@ -38,7 +42,7 @@
                             <div class="row pb-lg-5 mb-lg-5">
                                 <div class="col-12 col-lg-6">
                                     <div class="pr-xl-5 mr-xl-4">
-                                        <span class="d-block font-80 font-weight-bold text-gray848484 opacity01 lh1 mb-3 mb-md-4">
+                                        <span class="d-block font-80 font-weight-800 text-gray848484 opacity01 lh1 mb-3 mb-md-4">
                                             <span class="d-block" data-aos="fade-up">TO BE</span>
                                             <span class="d-block" data-aos="fade-up">DIFFERENT</span>
                                         </span>
@@ -150,7 +154,7 @@
                             </div>
                             <div class="max1400 mb-5 pb-5">
                                 <div class="d-lg-table ml-auto pr-lg-5 pb-5 pb-lg-4 mb-md-5 mb-lg-3">
-                                    <span class="d-block font-80 font-weight-bold text-gray848484 opacity02 lh1 mb-3 mb-md-4">
+                                    <span class="d-block font-80 font-weight-800 text-gray848484 opacity02 lh1 mb-3 mb-md-4">
                                         <span class="d-block" data-aos="fade-up">KEEP THINGS</span>
                                         <span class="d-block" data-aos="fade-up">SIMPLE</span>
                                     </span>
@@ -166,12 +170,14 @@
                                         </p>
 
                                     </div>
-                                    <a href="category" class="element-style-1 flex-align-center" data-aos="fade-up">
-                                        <span class="red-circle flex-center text-white bg-gradient-red rounded-circle mr-3 mr-md-4">
-                                            <i class="icon-right-open position-relative"></i>
-                                        </span>
-                                        <span class="font-18 font-weight-500">更多產品</span>
-                                    </a>
+                                    <div class="d-table">
+                                        <a href="category" class="element-style-1 flex-align-center" data-aos="fade-up">
+                                            <span class="red-circle flex-center text-white rounded-circle mr-3 mr-md-4">
+                                                <i class="icon-right-open position-relative z-1"></i>
+                                            </span>
+                                            <span class="font-18 font-weight-500">更多產品</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

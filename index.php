@@ -49,7 +49,7 @@
                     <div class="swiper-button d-none d-sm-flex swiper-button-prev"></div>
                     <div class="swiper-button d-none d-sm-flex swiper-button-next"></div>
                 </div>
-                <div class="bg pb-5 pt-xl-5">
+                <div class="bg pb-4 pb-sm-5 pt-xl-5">
                     <div class="index-section-1 position-relative z-1 pt-xl-4" data-aos="fade-up">
                         <h2 class="hidden">產品介紹</h2>
                         <div class="pt-sm-3">
@@ -128,12 +128,12 @@
                                             <div class="font-18 text-gray494949 lh18 les06 mb-4 ">
                                                 <p class="mb-2">經典零嘴、創新品味，用堅持與努力，提供高品質產品，創造出兼具在地特色及美味。多樣化選擇，讓您精彩不斷，吮指回味！</p>
                                             </div>
-                                            <div class="d-none d-xl-block element-style-1">
-                                                <a href="category" class="flex-align-center">
+                                            <div class="d-none d-xl-table">
+                                                <a href="category" class="element-style-1 flex-align-center">
                                                     <span class="red-circle flex-center text-white rounded-circle mr-4">
-                                                        <i class="icon-right-open"></i>
+                                                        <i class="icon-right-open position-relative z-1"></i>
                                                     </span>
-                                                    <span class="font-18 font-weight-500 text-hover-red">了解更多產品</span>
+                                                    <span class="font-18 font-weight-500">了解更多產品</span>
                                                 </a>
                                             </div>
                                             <a href="category" class="more-mobile d-table d-xl-none bg-gradient-red text-white rounded-30 lh165 mx-auto mt-3 mt-md-5 py-2 py-md-3 px-sm-5" data-aos="fade-up">
@@ -153,12 +153,12 @@
                                             <div class="font-18 text-gray494949 lh18 les06 mb-4 ">
                                                 <p class="mb-2">經典零嘴、創新品味，用堅持與努力，提供高品質產品，創造出兼具在地特色及美味。多樣化選擇，讓您精彩不斷，吮指回味！</p>
                                             </div>
-                                            <div class="d-none d-xl-block element-style-1">
-                                                <a href="category" class="flex-align-center">
+                                            <div class="d-none d-xl-table">
+                                                <a href="category" class="element-style-1 flex-align-center">
                                                     <span class="red-circle flex-center text-white rounded-circle mr-4">
-                                                        <i class="icon-right-open"></i>
+                                                        <i class="icon-right-open position-relative z-1"></i>
                                                     </span>
-                                                    <span class="font-18 font-weight-500 text-hover-red">了解更多產品</span>
+                                                    <span class="font-18 font-weight-500">了解更多產品</span>
                                                 </a>
                                             </div>
                                             <a href="category" class="more-mobile d-table d-xl-none bg-gradient-red text-white rounded-30 lh165 mx-auto mt-3 mt-md-5 py-2 py-md-3 px-sm-5" data-aos="fade-up">
@@ -178,12 +178,12 @@
                                             <div class="font-18 text-gray494949 lh18 les06 mb-4 ">
                                                 <p class="mb-2">經典零嘴、創新品味，用堅持與努力，提供高品質產品，創造出兼具在地特色及美味。多樣化選擇，讓您精彩不斷，吮指回味！</p>
                                             </div>
-                                            <div class="d-none d-xl-block element-style-1">
-                                                <a href="category" class="flex-align-center">
+                                            <div class="d-none d-xl-table">
+                                                <a href="category" class="element-style-1 flex-align-center">
                                                     <span class="red-circle flex-center text-white rounded-circle mr-4">
-                                                        <i class="icon-right-open"></i>
+                                                        <i class="icon-right-open position-relative z-1"></i>
                                                     </span>
-                                                    <span class="font-18 font-weight-500 text-hover-red">了解更多產品</span>
+                                                    <span class="font-18 font-weight-500">了解更多產品</span>
                                                 </a>
                                             </div>
                                             <a href="category" class="more-mobile d-table d-xl-none bg-gradient-red text-white rounded-30 lh165 mx-auto mt-3 mt-md-5 py-2 py-md-3 px-sm-5" data-aos="fade-up">
@@ -203,12 +203,12 @@
                                             <div class="font-18 text-gray494949 lh18 les06 mb-4 ">
                                                 <p class="mb-2">經典零嘴、創新品味，用堅持與努力，提供高品質產品，創造出兼具在地特色及美味。多樣化選擇，讓您精彩不斷，吮指回味！</p>
                                             </div>
-                                            <div class="d-none d-xl-block element-style-1">
-                                                <a href="category" class="flex-align-center">
+                                            <div class="d-none d-xl-table">
+                                                <a href="category" class="element-style-1 flex-align-center">
                                                     <span class="red-circle flex-center text-white rounded-circle mr-4">
-                                                        <i class="icon-right-open"></i>
+                                                        <i class="icon-right-open position-relative z-1"></i>
                                                     </span>
-                                                    <span class="font-18 font-weight-500 text-hover-red">了解更多產品</span>
+                                                    <span class="font-18 font-weight-500">了解更多產品</span>
                                                 </a>
                                             </div>
                                             <a href="category" class="more-mobile d-table d-xl-none bg-gradient-red text-white rounded-30 lh165 mx-auto mt-3 mt-md-5 py-2 py-md-3 px-sm-5" data-aos="fade-up">
@@ -225,7 +225,6 @@
                                     <div class="swiper-button swiper-button-prev rounded-circle text-white">
                                         <i class="icon-prev font-32 pl-1 pl-md-4 ml-3"></i>
                                     </div>
-
                                     <div class="swiper-button swiper-button-next rounded-circle text-white">
                                         <i class="icon-next font-32 pr-1 pr-md-4 mr-3"></i>
                                     </div>
@@ -267,18 +266,22 @@
                                                         <span class="d-xl-block">持續創造最好的產品，陪伴消費者一起度過美好的休閒時光。</span>
                                                     </p>
                                                 </div>
-                                                <div class="d-none d-xl-flex element-style-1" data-aos="fade-up">
-                                                    <a href="about" class="flex-align-center">
+                                                <div class="d-none d-xl-flex " data-aos="fade-up">
+                                                    <a href="about" class="element-style-1 flex-align-center">
                                                         <span class="red-circle flex-center text-white rounded-circle mr-4">
-                                                            <i class="icon-right-open"></i>
+                                                            <i class="icon-right-open position-relative z-1"></i>
                                                         </span>
-                                                        <span class="font-18 font-weight-500 text-hover-red">認識華元食品</span>
+                                                        <span class="font-18 font-weight-500">認識華元食品</span>
                                                     </a>
                                                 </div>
                                             </div>
-                                            <p class="welcome col-12 font-130 font-weight-800 text-gradient-red lh1 pt-2 px-xl-0 pb-1 pb-md-0" data-aos="fade-up">
-                                                <span class="d-block ">WELCOME</span>
-                                                <span class="d-block ">HWA.YUAN</span>
+                                            <p class="welcome col-12 font-130 font-weight-800 lh1 pt-2 px-xl-0 pb-1 pb-md-0" data-aos="fade-up">
+                                                <span class="d-block text-gradient-red">
+                                                    <span>WELCOME</span>
+                                                </span>
+                                                <span class="d-block text-gradient-red">
+                                                    <span>HWA.YUAN</span>
+                                                </span>
                                             </p>
                                         </div>
                                     </div>
@@ -309,12 +312,12 @@
                                                 <span class="d-block d-md-inline">與您分享華元大小新鮮事</span>
                                             </p>
                                         </div>
-                                        <div class="element-style-1" data-aos="fade-up">
-                                            <a href="news" class="d-none d-xl-flex flex-align-center">
+                                        <div class="d-table" data-aos="fade-up">
+                                            <a href="news" class="element-style-1 d-none d-xl-flex flex-align-center">
                                                 <span class="red-circle flex-center text-white rounded-circle mr-4">
-                                                    <i class="icon-right-open"></i>
+                                                    <i class="icon-right-open position-relative z-1"></i>
                                                 </span>
-                                                <span class="font-weight-500 text-hover-red">更多消息</span>
+                                                <span class="font-18 font-weight-500">更多消息</span>
                                             </a>
                                         </div>
                                     </div>
@@ -327,18 +330,18 @@
                                             <div class="flex-align-center h-100">
                                                 <a href="new" class="mx-0 mr-xl-5">
                                                     <span class="info row flex-align-center position-relative mx-0 mx-xl-3">
-                                                        <span class="date font-36 font-weight-bold pr-3 pr-lg-5">
+                                                        <span class="date font-36 font-weight-500 pr-3 pr-lg-5">
                                                             Dec 24, 2020
                                                         </span>
                                                         <span class="d-block d-md-flex col-12 col-md row mx-0 px-0">
-                                                            <div class="img-wrapper d-table">
+                                                            <span class="d-block img-wrapper d-table mb-4 mb-md-0">
                                                                 <span class="img rounded-5 overflow-hidden">
                                                                     <img class="position-relative z-1" src="styles/images/index/new-1.jpg" alt="華元食品">
                                                                 </span>
-                                                            </div>
-                                                            <span class="col pl-4 pr-0 px-xl-5 pt-lg-4 mt-xl-1">
-                                                                <p class="font-20 font-weight-bold text-indent mb-2">【華元 / 盛香珍 / 湖池屋 】全聯品牌月開跑</p>
-                                                                <p class="text-gray808080 lh18 pr-xl-4">購買指定商品單筆滿$100即贈福利點數30點再抽Dyson V11™ Fluffy 無線吸塵器與全聯禮卷!!!</p>
+                                                            </span>
+                                                            <span class="d-block col pl-0 pl-md-4 pr-0 px-xl-5 pt-lg-4 mt-xl-1">
+                                                                <span class="d-block font-20 font-weight-bold text-indent mb-2">【華元 / 盛香珍 / 湖池屋 】全聯品牌月開跑</span>
+                                                                <span class="text-gray808080 lh18 pr-xl-4">購買指定商品單筆滿$100即贈福利點數30點再抽Dyson V11™ Fluffy 無線吸塵器與全聯禮卷!!!</span>
                                                             </span>
                                                         </span>
                                                     </span>
@@ -356,18 +359,18 @@
                                             <div class="flex-align-center h-100">
                                                 <a href="new" class="mx-0 mr-xl-5">
                                                     <span class="info row flex-align-center position-relative mx-0 mx-xl-3">
-                                                        <span class="date font-36 font-weight-bold pr-3 pr-lg-5">
+                                                        <span class="date font-36 font-weight-500 pr-3 pr-lg-5">
                                                             Dec 24, 2020
                                                         </span>
                                                         <span class="d-block d-md-flex col-12 col-md row mx-0 px-0">
-                                                            <div class="img-wrapper d-table">
+                                                            <span class="d-block img-wrapper d-table mb-4 mb-md-0">
                                                                 <span class="img rounded-5 overflow-hidden">
                                                                     <img class="position-relative z-1" src="styles/images/index/new-2.jpg" alt="華元食品">
                                                                 </span>
-                                                            </div>
-                                                            <span class="col pl-4 pr-0 px-xl-5 pt-lg-4 mt-xl-1">
-                                                                <p class="font-20 font-weight-bold text-indent mb-2">【華元 / 盛香珍 / 湖池屋 】全聯品牌月開跑</p>
-                                                                <p class="text-gray808080 lh18 pr-xl-4">購買指定商品單筆滿$100即贈福利點數30點再抽Dyson V11™ Fluffy 無線吸塵器與全聯禮卷!!!</p>
+                                                            </span>
+                                                            <span class="d-block col pl-0 pl-md-4 pr-0 px-xl-5 pt-lg-4 mt-xl-1">
+                                                                <span class="d-block font-20 font-weight-bold text-indent mb-2">【華元 / 盛香珍 / 湖池屋 】全聯品牌月開跑</span>
+                                                                <span class="text-gray808080 lh18 pr-xl-4">購買指定商品單筆滿$100即贈福利點數30點再抽Dyson V11™ Fluffy 無線吸塵器與全聯禮卷!!!</span>
                                                             </span>
                                                         </span>
                                                     </span>
@@ -385,18 +388,18 @@
                                             <div class="flex-align-center h-100">
                                                 <a href="new" class="mx-0 mr-xl-5">
                                                     <span class="info row flex-align-center position-relative mx-0 mx-xl-3">
-                                                        <span class="date font-36 font-weight-bold pr-3 pr-lg-5">
+                                                        <span class="date font-36 font-weight-500 pr-3 pr-lg-5">
                                                             Dec 24, 2020
                                                         </span>
                                                         <span class="d-block d-md-flex col-12 col-md row mx-0 px-0">
-                                                            <div class="img-wrapper d-table">
+                                                            <span class="d-block img-wrapper d-table mb-4 mb-md-0">
                                                                 <span class="img rounded-5 overflow-hidden">
                                                                     <img class="position-relative z-1" src="styles/images/index/new-3.jpg" alt="華元食品">
                                                                 </span>
-                                                            </div>
-                                                            <span class="col pl-4 pr-0 px-xl-5 pt-lg-4 mt-xl-1">
-                                                                <p class="font-20 font-weight-bold text-indent mb-2">【華元 / 盛香珍 / 湖池屋 】全聯品牌月開跑</p>
-                                                                <p class="text-gray808080 lh18 pr-xl-4">購買指定商品單筆滿$100即贈福利點數30點再抽Dyson V11™ Fluffy 無線吸塵器與全聯禮卷!!!</p>
+                                                            </span>
+                                                            <span class="d-block col pl-0 pl-md-4 pr-0 px-xl-5 pt-lg-4 mt-xl-1">
+                                                                <span class="d-block font-20 font-weight-bold text-indent mb-2">【華元 / 盛香珍 / 湖池屋 】全聯品牌月開跑</span>
+                                                                <span class="text-gray808080 lh18 pr-xl-4">購買指定商品單筆滿$100即贈福利點數30點再抽Dyson V11™ Fluffy 無線吸塵器與全聯禮卷!!!</span>
                                                             </span>
                                                         </span>
                                                     </span>
@@ -441,7 +444,7 @@
                             <div class="element-style-1" data-aos="fade-up">
                                 <a href="videos" class="more d-none d-xl-flex position-absolute flex-align-center">
                                     <span class="red-circle flex-center text-white rounded-circle mr-4">
-                                        <i class="icon-right-open"></i>
+                                        <i class="icon-right-open position-relative z-1"></i>
                                     </span>
                                     <span class="font-weight-500 text-hover-red">更多影片</span>
                                 </a>
@@ -516,8 +519,12 @@
                 <button type="button" class="goTop position-fixed bg-gradient-red text-white rounded-circle z-2">
                     <i class="icon-up-open font-32 lh1"></i>
                 </button>
-                <div class="dec position-absolute w-100">
-                    <img src="styles/images/layout/footer-dec.png" alt="華元食品">
+                <div class="dec position-absolute">
+                    <picture data-aos="fade-in">
+                        <source media="(min-width: 768px)" srcset="styles/images/layout/footer-dec.png" />
+                        <source media="(max-width: 767px)" srcset="styles/images/layout/footer-dec-mobile.png" />
+                        <img src="#" alt="華元食品" />
+                    </picture>
                 </div>
                 <div class="position-relative z-1">
                     <div class="info">
@@ -539,10 +546,10 @@
                         </address>
                     </div>
                     <div class="flex-center mb-2 mb-md-4 pb-3">
-                        <a class="fb d-inline-flex flex-center text-white rounded-circle bg-gradient-red mx-1" href="./" target="_blank">
+                        <a class="fb d-inline-flex flex-center text-white rounded-circle bg-gradient-red mx-1" href="https://zh-tw.facebook.com/hyfoods" target="_blank">
                             <i class="icon-fb font-20"></i>
                         </a>
-                        <a class="youtube d-inline-flex flex-center text-white rounded-circle bg-gradient-red mx-1" href="./" target="_blank">
+                        <a class="youtube d-inline-flex flex-center text-white rounded-circle bg-gradient-red mx-1" href="https://www.youtube.com/user/hyfoods" target="_blank">
                             <i class="icon-youtube font-14"></i>
                         </a>
                     </div>
@@ -563,22 +570,21 @@
                     <img src="styles/images/layout/footer-biscuit.png" alt="華元食品">
                 </div>
             </footer>
-    </div>
-    </main>
-    <!-- main ======================================================================================= -->
-    <!-- Modal -->
-    <div class="modal fade blank" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog max1200 h-100 modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal">
-                    <i class="icon-cancel text-white"></i>
-                </button>
-                <div class="video-element">
-                    <iframe class="w-100 border-0" src="https://www.youtube.com/embed/WhL9IHMcDRw" allowfullscreen></iframe>
+        </main>
+        <!-- main ======================================================================================= -->
+        <!-- Modal -->
+        <div class="modal fade blank" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog max1200 h-100 modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="icon-cancel text-white"></i>
+                    </button>
+                    <div class="video-element">
+                        <iframe class="w-100 border-0" src="https://www.youtube.com/embed/WhL9IHMcDRw" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <?php include "footer-js.php"; ?>
 </body>

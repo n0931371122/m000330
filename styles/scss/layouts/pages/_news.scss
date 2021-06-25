@@ -31,6 +31,7 @@
                     background: rgba(0,0,0,0.2);
                     opacity: 0;
                     transition: opacity .3s;
+                    pointer-events: none;
                 }
                 .circle-move-style{
                     width: 120px;
@@ -43,6 +44,26 @@
                                 width: 26px;
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width:1199px){
+        .content-wrapper{
+            a{
+                &:hover{
+                    .img{
+                        box-shadow: none;
+                        &::after{
+                            opacity: 0;
+                        }
+                        .circle-move-style{
+                            opacity: 0;
+                        }
+                    }
+                    .date{
+                        color:black; 
                     }
                 }
             }

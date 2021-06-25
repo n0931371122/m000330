@@ -18,6 +18,9 @@
             height: 71px;
         }
     }
+    .modal-content{
+        background: transparent;
+    }
     @media(max-width:1199px){
         [data-toggle="modal"]{
             .font-20{
@@ -31,6 +34,9 @@
                 height: auto;
                 display: block;
             }
+        }
+        .modal .icon-cancel{
+            font-size: 30px;
         }
     }
 } 

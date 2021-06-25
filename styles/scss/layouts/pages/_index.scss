@@ -193,7 +193,11 @@
     .swiper-main{
        margin-left: 505px;
         .swiper-slide{
-           
+            &.swiper-slide-active{
+                .text a{
+                    pointer-events: all;
+                }
+            }
             .img{
                 width: 75%;
             }
@@ -202,9 +206,6 @@
                 left: 57.5%;
                 max-width: 433px;
                 padding-right: 24px;
-                a{
-                    pointer-events: all;
-                }
             }
         }
         .swiper-pagination{
@@ -483,9 +484,15 @@
         }
         .img-2{
             top: 180px;
+            right: -10px;
         }
         .lh18{
             line-height: 1.6;
+        }
+        .text{
+            .welcome{
+                letter-spacing: -2px;
+            }
         }
     }
 }
@@ -516,6 +523,7 @@
                 &:hover{
                     .date{
                         color:$red;
+                        font-weight: 800;
                     }
                     .circle{
                         opacity: 1;
@@ -838,11 +846,16 @@
         }
         .swiper-container{
             max-width: 300px;
-            .swiper-wrapper .swiper-slide .circle{
-                width: 60px;
-                height: 60px;
-                i{
-                    font-size: 16px;
+            .swiper-wrapper .swiper-slide{
+                img{
+                    transform: none;
+                }
+                .circle{
+                    width: 60px;
+                    height: 60px;
+                    i{
+                        font-size: 16px;
+                    }
                 }
             }
             .swiper-button{
@@ -933,8 +946,11 @@
             padding-bottom: 139px;
         }
         @media(max-width:575px){
-            padding-top: 45px;
+            padding-top: 115px;
             padding-bottom: 89px;
+            .dec{
+                top: -37px;
+            }
     
         }
     }

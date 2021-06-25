@@ -29,10 +29,10 @@
             </address>
         </div>
         <div class="flex-center mb-2 mb-md-4 pb-3">
-            <a class="fb d-inline-flex flex-center text-white rounded-circle bg-gradient-red mx-1" href="./" target="_blank">
+            <a class="fb d-inline-flex flex-center text-white rounded-circle bg-gradient-red mx-1" href="https://zh-tw.facebook.com/hyfoods" target="_blank">
                 <i class="icon-fb font-20"></i>
             </a>
-            <a class="youtube d-inline-flex flex-center text-white rounded-circle bg-gradient-red mx-1" href="./" target="_blank">
+            <a class="youtube d-inline-flex flex-center text-white rounded-circle bg-gradient-red mx-1" href="https://www.youtube.com/user/hyfoods" target="_blank">
                 <i class="icon-youtube font-14"></i>
             </a>
         </div>

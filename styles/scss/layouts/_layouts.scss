@@ -3,14 +3,14 @@ html.menuOpen{
 		.wrapper{
 			div {
 				&.bar1 {
-					top: 6px;
+					top: 10px;
 					transform: rotate(-45deg);
 				}
 				&.bar2 {
 					opacity: 0;
 				}
 				&.bar3 {
-					top:6px;
+					top:10px;
 					transform: rotate(45deg);
 				}
 			}
@@ -23,6 +23,7 @@ html.menuOpen{
 	}
 }
 header{
+	z-index: 11;
 	height: 80px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -282,7 +283,7 @@ header{
 footer{
 	bottom: 0;
 	padding-top: 86px;
-	padding-bottom: 318px;
+	padding-bottom: 283px;
 	.goTop{
 		bottom: 70px;
 		right: 40px;
@@ -339,7 +340,7 @@ footer{
 		.goTop{
 			width: 35px;
 			height: 35px;
-			bottom: 20px;
+			bottom: 30px;
 			i{
 				font-size: 16px;
 			}

@@ -2,7 +2,8 @@
 $(function (){
 
     var windowW=$(window).innerWidth(),
-        mobileMode;
+        mobileMode,
+        headerH=$("header").height();
     $(".jqimgFill").imgLiquid();
     imgFill();
     /* ==========================================================================
@@ -12,8 +13,9 @@ $(function (){
         $(".menu-toggle").click(function () {
             $("html").toggleClass("menuOpen");
         });
+        
         $(".lang .toggle").click(function(){
-            $(this).next().slideToggle();
+            $(this).next().stop().slideToggle();
         });
     });
     $(".goTop").on("click", function () {
@@ -61,6 +63,7 @@ $(function (){
     //.index-banner
         new Swiper ('.index-banner',$.extend({
             loop: true, 
+            autoplay:{delay:5000},
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -69,7 +72,7 @@ $(function (){
         //.index-section-1
         var swiperThumbs =new Swiper ('.index-section-1 .swiper-thumbs', {
             centeredSlides: true,
-             centeredSlidesBounds: true,
+            centeredSlidesBounds: true,
             slidesPerView: 2.2,
             breakpoints: {
                768: {
@@ -90,6 +93,7 @@ $(function (){
         }) 
         var swiperyMain =new Swiper ('.index-section-1 .swiper-main',$.extend({
             effect:'fade',
+            autoplay:{delay:5000},
             fadeEffect: {
                 crossFade: true
             },
@@ -159,9 +163,10 @@ $(function (){
         }
     });
     $("#category").each(function(){    
-        new Swiper ('.swiper-container',$.extend({
+        var swiper=new Swiper ('.swiper-container',$.extend({
             loop: true,
             speed: 600,
+            autoplay:{delay:5000},
             autoHeight:true,
             breakpoints: {
                 768: {
@@ -169,28 +174,42 @@ $(function (){
                 }
             }
         },defaultEffect,slideDotEffect)) 
+        $(".link").click(function(){
+            var index=$(this).data("target");
+            console.log(index);
+            $("html,body").animate({
+                scrollTop:$(".swiper-container").offset().top-headerH
+            },1000);
+            swiper.slideTo(index)
+            
+        });
+        $(".swiper-container .swiper-slide").each(function(){
+            new Parallax($(this).find(".img").get(0));
+        });
+        
+
     });
     $("#products").each(function(){
         var count=$(".swiper-container .swiper-slide").length;
-        new Swiper ('.links .swiper-container', $.extend({
+        new Swiper ('.links .swiper-container', {
             slidesPerView: 1,
-            speedf:600,
+            speed:600,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
             breakpoints: {
                 768: {
-                    slidesPerView: 2
+                    slidesPerView: 2,
                 },
                 992: {
-                    slidesPerView: 3
+                    slidesPerView: 3,
                 },
                 1200: {
                     slidesPerView: count>5?5:count,
                 }
             },
-        },defaultEffect))  
+        })  
     });
     $("#product").each(function(){
 
@@ -201,6 +220,10 @@ $(function (){
             direction: 'vertical',
         }) 
         new Swiper ('.swiper-main', $.extend({
+            effect:'fade',
+            fadeEffect: {
+                crossFade: true
+            },
             thumbs: {
                 swiper: swiperThumbs
             }, 
@@ -230,6 +253,7 @@ $(function (){
     /* ==========================================================================
 		[resize]
      ==========================================================================*/
+
     function resize(){
         windowW=$(window).innerWidth();
         windowW<992?mobileMode=true:mobileMode=false;
@@ -247,6 +271,15 @@ $(function (){
             }
             else{
                 $(".title-next-dot").before($(".title").detach())
+            }
+        });
+
+        var trigger_size = [576];
+        trigger_size.forEach(function (ele) {
+            if (windowW > ele) {
+                $(window).width() <= ele ? location.reload() : "";
+            } else {
+                $(window).width() > ele ? location.reload() : "";
             }
         });
     }

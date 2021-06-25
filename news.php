@@ -25,9 +25,13 @@
                     <div class="text position-absolute w-100 blank">
                         <div class="max1400">
                             <div class="pl-md-4">
-                                <span class="d-block font-90 font-weight-800 text-gradient-red lh1 mb-2 mb-md-4" data-aos="fade-up">
-                                    <span class="d-block">WHAT'S</span>
-                                    <span class="d-block">NEW</span>
+                                <span class="d-block font-90 font-weight-800 lh1 mb-2 mb-md-4" data-aos="fade-up">
+                                    <span class="d-block text-gradient-red">
+                                        <span>WHAT'S</span>
+                                    </span>
+                                    <span class="d-block text-gradient-red">
+                                        <span>NEW</span>
+                                    </span>
                                 </span>
                                 <span class="d-block font-36 font-weight-bold mb-2 mb-md-4" data-aos="fade-up" data-aos-delay="50">最新消息</span>
                                 <div class="max445 pr-md-5" data-aos="fade-up" data-aos-delay="100">
@@ -38,7 +42,7 @@
                                 </div>
                                 <div class="element-style-1" data-aos="fade-up" data-aos-delay="150">
                                     <span class="d-none d-md-flex black-circle flex-center text-white rounded-circle">
-                                        <i class="icon-down-open font-20"></i>
+                                        <i class="icon-down-open font-20 position-relative z-1"></i>
                                     </span>
                                 </div>
                             </div>
@@ -251,35 +255,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="pages-element d-table mx-auto">
-                        <ul class="flex-align-center font-19 noneStyle" data-aos="fade-up">
-                            <li>
-                                <a class="text-gray737373 flex-center text-hover-red rounded-circle" href="#">
-                                    <i class="icon-chevrons-left font-15"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-gray737373 flex-center text-hover-red rounded-circle" href="#">
-                                    <i class="icon-prev font-15"></i>
-                                </a>
-                            </li>
-                            <li><a class="active flex-center position-relative rounded-circle" href="#">1</a></li>
-                            <li><a class="flex-center position-relative rounded-circle" href="#">2</a></li>
-                            <li><a class="flex-center position-relative rounded-circle" href="#">3</a></li>
-                            <li><a class="flex-center position-relative rounded-circle" href="#">4</a></li>
-                            <li><a class="flex-center position-relative rounded-circle" href="#">5</a></li>
-                            <li>
-                                <a class="text-gray737373 flex-center text-hover-red rounded-circle" href="#">
-                                    <i class="icon-next  font-15"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-gray737373 flex-center text-hover-red rounded-circle" href="#">
-                                    <i class="icon-chevrons-right font-15"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php include "pageElement.php"; ?>
                 </div>
             </div>
         </main>

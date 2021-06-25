@@ -13,7 +13,7 @@
         <main>
             <h1 class="hidden">最新消息</h1>
             <div class="blank footer-space pt-5" style="background-image:url(styles/images/new/bg.jpg)">
-                <div class="max1400 pt-5 mt-lg-5 mb-lg-5 pb-3">
+                <div class="max1400 pt-sm-5 mt-lg-5 mb-lg-5 pb-3">
                     <div class="bg-white rounded-20 mt-lg-5 px-4 px-xl-5 py-4 py-md-5">
                         <div class="px-xl-4 pt-xl-1 pb-2">
                             <div class="font-weight-bold border-bottom-E2E2E2 pb-2 pb-md-4 mb-2 mb-md-4">
@@ -60,9 +60,9 @@
                             <div class="d-block d-md-flex flex-justify-space-between pt-2">
                                 <a href="news" class="element-style-1 flex-align-center" data-aos="fade-up">
                                     <span class="gray-circle flex-center text-white rounded-circle mr-3 mr-md-4">
-                                        <i class="icon-left-open position-relative font-18"></i>
+                                        <i class="icon-left-open position-relative font-18 z-1"></i>
                                     </span>
-                                    <span class="font-weight-500 text-gray808080 text-hover-red">返回列表</span>
+                                    <span class="font-weight-500 text-gray808080">返回列表</span>
                                 </a>
                                 <div class="flex-align-center mt-3 mt-md-0" data-aos="fade-up">
                                     <span class="font-18 text-gray808080 mr-1">分享：</span>

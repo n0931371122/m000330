@@ -16,7 +16,7 @@
 <meta property="og:image" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 <meta name="format-detection" content="telephone=no">
-<link rel="icon" type="image/x-icon" href="styles/images/web-icon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="styles/images/web-icon.ico" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Open+Sans:wght@400;500;700;800&family=Oswald:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles/style.css" />

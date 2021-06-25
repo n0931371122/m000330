@@ -96,7 +96,11 @@ body{
 	position: relative;
 	overflow: hidden;
 }
-
+main{
+	@media(max-width:991px){
+		padding-top: 50px;
+	}
+}
 .safari body {
   -webkit-text-size-adjust: none;
 }

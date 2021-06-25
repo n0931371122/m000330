@@ -93,13 +93,16 @@
            display: none;
         }
         .dec-2{
-            right: 15%;
+            display: none;
+        }
+        .info{
+            text-align: center;
         }
     }
 }
 #product{
     .prev-next{
-        margin-bottom: 736px;
+        margin-bottom:700px;
     }
     footer{
             background: url(images/layout/footer-bg.jpg) center no-repeat;

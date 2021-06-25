@@ -21,7 +21,7 @@
                         <p class="font-18 mb-4 pb-md-5" data-aos="fade-up" data-aos-delay="100">掌握品牌資訊，更多華元的廣告影片、最新影音看這裡</p>
                         <div class="element-style-1" data-aos="fade-up" data-aos-delay="150">
                             <span class="black-circle flex-center text-white rounded-circle mx-auto">
-                                <i class="icon-down-open"></i>
+                                <i class="icon-down-open position-relative z-1"></i>
                             </span>
                         </div>
                     </div>

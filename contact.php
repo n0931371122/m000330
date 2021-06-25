@@ -13,16 +13,20 @@
         <main>
             <h1 class="hidden">聯絡我們</h1>
             <div class="blank footer-space overflow-hidden pt-5" style="background-image:url(styles/images/new/bg.jpg)">
-                <div class="editor max1400 pt-5 mt-lg-5 mb-4 mb-lg-5 pb-2" id="contactEditor">
+                <div class="editor max1400 pt-sm-5 mt-lg-5 mb-4 mb-lg-5 pb-2" id="contactEditor">
                     <!--編輯器開始-->
                     <div class="contact-info position-relative row pt-3 pt-md-5 mt-md-4">
                         <div class="dec-img col-lg-6 col-xl-7" data-aos="fade-up">
                             <img src="styles/images/contact/img.png" alt="華元食品">
                         </div>
                         <div class="col-12 col-lg-6 col-xl-5" data-aos="fade-up">
-                            <span class="d-block font-90 font-weight-800 text-gradient-red lh1 mb-2 mb-md-4">
-                                <span class="d-block">LET'S</span>
-                                <span class="d-block">TALK TO US</span>
+                            <span class="d-block font-90 font-weight-800 lh1 mb-2 mb-md-4">
+                                <span class="d-block text-gradient-red">
+                                    <span>LET'S</span>
+                                </span>
+                                <span class="d-block text-gradient-red">
+                                    <span>TALK TO US</span>
+                                </span>
                             </span>
                             <span class="d-block font-36 font-weight-bold">聯絡我們</span>
                             <ul class="noneStyle mt-4 pt-1">
@@ -64,7 +68,7 @@
                                             <span class="d-block">
                                                 <span class="text-purple">電子郵件</span>
                                                 <span class="mx-1">/</span>
-                                                <a class="font-weight-bold text-hover-red" href="mailto: designer.hyfoods@gmail.com"> designer.hyfoods@gmail.com</a>
+                                                <a class="font-weight-bold text-hover-red" href="mailto:designer.hyfoods@gmail.com"> designer.hyfoods@gmail.com</a>
                                             </span>
                                         </div>
                                     </div>
@@ -101,7 +105,7 @@
                             <div class="col-12 col-md-6 mb-4">
                                 <div class="bg-F7F7F7 rounded-30 px-md-2" data-aos="fade-up">
                                     <div class="form-field d-block d-md-flex flex-align-center py-2 py-md-3 px-3 px-md-4">
-                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="">
+                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="name">
                                             <span>姓名</span>
                                             <span class="ml-2 ml-md-0 text-red">※</span>
                                         </label>
@@ -112,7 +116,7 @@
                             <div class="col-12 col-md-6 mb-4">
                                 <div class="bg-F7F7F7 rounded-30 px-md-2" data-aos="fade-up">
                                     <div class="form-field d-block d-md-flex flex-align-center py-2 py-md-3 px-3 px-md-4">
-                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="">
+                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="company">
                                             <span>公司名稱 </span>
                                             <span class="ml-2 ml-md-0 text-red">※</span>
                                         </label>
@@ -123,7 +127,7 @@
                             <div class="col-12 col-md-6 mb-4">
                                 <div class="bg-F7F7F7 rounded-30 px-md-2" data-aos="fade-up">
                                     <div class="form-field d-block d-md-flex flex-align-center py-2 py-md-3 px-3 px-md-4">
-                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="">
+                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="mail">
                                             <span>E-mail</span>
                                             <span class="ml-2 ml-md-0 text-red">※</span>
                                         </label>
@@ -134,7 +138,7 @@
                             <div class="col-12 col-md-6 mb-4">
                                 <div class="bg-F7F7F7 rounded-30 px-md-2" data-aos="fade-up">
                                     <div class="form-field d-block d-md-flex flex-align-center py-2 py-md-3 px-3 px-md-4">
-                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="">
+                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="phone">
                                             <span>聯絡電話</span>
                                             <span class="ml-2 ml-md-0 text-red">※</span>
                                         </label>
@@ -145,7 +149,7 @@
                             <div class="col-12 mb-4">
                                 <div class="bg-F7F7F7 rounded-30 px-md-2 position-relative z-1" data-aos="fade-up">
                                     <div class="form-field d-block d-md-flex flex-align-center py-2 py-md-3 px-3 px-md-4">
-                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="">
+                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="issue">
                                             <span>主旨</span>
                                             <span class="ml-2 ml-md-0 text-red">※</span>
                                         </label>
@@ -160,18 +164,18 @@
                             <div class="col-12 mb-4">
                                 <div class="bg-F7F7F7 rounded-30 px-md-2" data-aos="fade-up">
                                     <div class="form-field d-md-flex py-2 py-md-3 px-3 px-md-4">
-                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0 pt-md-2" for="">
+                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0 pt-md-2" for="content">
                                             <span>內容</span>
                                             <span class="ml-2 ml-md-0 text-red">※</span>
                                         </label>
-                                        <textarea class="lh165 flex-grow w-100" name="content" id="content" rows="9" required></textarea>
+                                        <textarea class="lh165 flex-grow w-100 p-0" name="content" id="content" rows="9" required></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 mb-4">
                                 <div class="bg-F7F7F7 rounded-30 px-md-2" data-aos="fade-up">
                                     <div class="form-field d-block d-md-flex flex-align-center py-2 px-3 px-md-4">
-                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-3 mb-md-0" for="">
+                                        <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-3 mb-md-0" for="file">
                                             <span>檔案上傳</span>
                                             <span class="ml-2 ml-md-0 text-red">※</span>
                                         </label>
@@ -185,15 +189,15 @@
                                 </div>
                             </div>
                             <div class="col-12 row mb-4 mx-0">
-                                <div class="col-12 col-md-9 pl-0 pr-0 pr-md-3">
+                                <div class="col-12 col-md-9 px-0">
                                     <div class="bg-F7F7F7 rounded-30 px-md-2" data-aos="fade-up">
                                         <div class="form-field d-block d-md-flex flex-align-center py-2 px-3 px-md-4">
-                                            <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="">
+                                            <label class="d-table d-md-flex flex-justify-space-between font-weight-bold mr-4 pr-1 mb-2 mb-md-0" for="code">
                                                 <span>驗證碼</span>
                                                 <span class="ml-2 ml-md-0 text-red">※</span>
                                             </label>
                                             <div class="d-flex flex-grow">
-                                                <input class="flex-grow w-0" type="text" required>
+                                                <input class="flex-grow w-0" type="text" id="code" name="code" required>
                                                 <img src="styles/images/contact/verificationCode.png" alt="華元食品">
                                             </div>
                                         </div>

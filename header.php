@@ -1,4 +1,4 @@
-<header class="position-fixed w-100 z-3">
+<header class="position-fixed w-100">
 	<div class="max1540 w-100 h-100 pr-xl-3">
 		<div class="position-relative h-100">
 			<div class="menu-toggle d-lg-none">
@@ -37,7 +37,7 @@
 				</ul>
 				<img class="position-absolute d-lg-none w-100" src="styles/images/layout/menu-bg.png" alt="華元食品">
 			</div>
-			<div class="complex d-flex position-absolute">
+			<div class="complex d-flex position-absolute z-1">
 				<div class="lang position-relative pr-lg-2 pr-xl-4 mr-lg-2 mr-xl-4">
 					<div class="toggle text-red flex-align-center cursor">
 						<i class="icon-lang font-22 mr-lg-2"></i>
@@ -54,10 +54,10 @@
 						</ul>
 					</div>
 				</div>
-				<a class="fb flex-center text-white rounded-circle font-16 pb-0 mr-2" href="./" target="_blank">
+				<a class="fb flex-center text-white rounded-circle font-16 pb-0 mr-2" href="https://zh-tw.facebook.com/hyfoods" target="_blank">
 					<i class="icon-fb"></i>
 				</a>
-				<a class="youtube flex-center text-white rounded-circle font-12 lh1 pb-0 ml-1" href="./" target="_blank">
+				<a class="youtube flex-center text-white rounded-circle font-12 lh1 pb-0 ml-1" href="https://www.youtube.com/user/hyfoods" target="_blank">
 					<i class="icon-youtube"></i>
 				</a>
 			</div>
